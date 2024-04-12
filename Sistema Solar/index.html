@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Solar</title>
+
+    <style>
+        /* Estilos para o corpo da página */
+        body {
+            margin: 0px;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: black; /* Cor de fundo preta */
+            overflow: hidden;
+        }
+
+        /* Estilos para o contêiner do sistema solar */
+        .container {
+            font-size: 10px;
+            width: 40em;
+            height: 40em;
+            position: relative;
+        }
+
+        /* Estilos para o sol */
+        .sol {
+            position: absolute;
+            top: 15em;
+            left: 15em;
+            width: 10em;
+            height: 10em;
+            border-radius: 50%;
+            box-shadow: 0 0 3em rgba(228, 228, 200, 0.986); /* Sombra em volta do sol */
+            background-image: linear-gradient(45deg, rgb(204, 177, 58), #86662b); /* Gradiente linear para representar o sol */
+        }
+
+        /* Estilos para a terra e a lua */
+        .terra, .lua {
+            position: absolute;
+            border-style: solid;
+            border-color: white transparent transparent transparent;
+            border-width: 0.1em 0.1em 0 0;
+            border-radius: 50%;
+        }
+
+        /* Estilos para a terra */
+        .terra {
+            top: 5em;
+            left: 5em;
+            width: 30em;
+            height: 30em;
+            animation: orbit 36.5s linear infinite; /* Animação de órbita da terra */
+        }
+
+        /* Estilos para a lua */
+        .lua {
+            top: 0px;
+            right: 0px;
+            width: 8em;
+            height: 8em;
+            animation: orbit 2.7s linear infinite; /* Animação de órbita da lua */
+        }
+
+        /* Estilos para o efeito de reflexão na terra e na lua */
+        .terra::before, 
+        .lua::before {
+            content: '';
+            position: absolute;
+            border-radius: 50%;
+        }
+
+        /* Estilos para a reflexão na terra */
+        .terra::before {
+            top: 2.8em;
+            right: 2.8em;
+            width: 3em;
+            height: 3em;
+            background-image: linear-gradient(45deg, rgb(104, 77, 41), rgb(40, 40, 128)); /* Gradiente linear para reflexão na terra */
+        }
+
+        /* Estilos para a reflexão na lua */
+        .lua::before {
+            top: 0.8em;
+            right: 0.2em;
+            width: 1.2em;
+            height: 1.2em;
+            background-image: linear-gradient(45deg, silver, transparent); /* Gradiente linear para reflexão na lua */
+        }
+
+        /* Definição da animação de órbita */
+        @keyframes orbit {
+         from {
+            transform: rotate(0deg);
+         }
+         to {
+            transform: rotate(360deg);
+        }
+}
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="sol"></div>
+        <div class="terra">
+            <div class="lua"></div>
+        </div>
+    </div>
+</body>
+</html>

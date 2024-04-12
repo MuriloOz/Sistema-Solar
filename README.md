@@ -8,5 +8,5 @@ A animação de órbita é a peça central, fazendo a terra e a lua girarem em t
 Este projeto não só oferece uma visão fascinante do sistema solar, mas também ilustra a capacidade criativa e expressiva do HTML e CSS. 🌌✨
 
 
-https://github.com/Murilophy/Sistema-Solar/assets/137320364/0a78826d-dc22-4da4-ab84-29a96a2a325d
+
 

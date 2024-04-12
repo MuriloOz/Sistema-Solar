@@ -6,3 +6,7 @@ O código HTML estabelece a estrutura do documento, incluindo um contêiner que 
 No CSS, definimos estilos detalhados: o sol é um círculo radiante com um gradiente simulando sua superfície. A terra e a lua são estilizadas como círculos com bordas brancas, orbitando artisticamente em torno do sol.
 A animação de órbita é a peça central, fazendo a terra e a lua girarem em torno do sol em movimentos fluidos e realistas. Além disso, adicionei efeitos de reflexão usando gradientes lineares, proporcionando um toque extra de realismo e profundidade.
 Este projeto não só oferece uma visão fascinante do sistema solar, mas também ilustra a capacidade criativa e expressiva do HTML e CSS. 🌌✨
+
+
+https://github.com/Murilophy/Sistema-Solar/assets/137320364/0a78826d-dc22-4da4-ab84-29a96a2a325d
+

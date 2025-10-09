@@ -70,7 +70,7 @@ body {
     right: 2.8em;
     width: 3em;
     height: 3em;
-    background: radial-gradient(circle at 60% 40%, #1e90ff 30%, #228b22 60%, #f0f8ff 90%);
+    background: radial-gradient(circle at 60% 40%, #1e90ff 30%, #33b633 60%, #f0f8ff 90%);
     box-shadow: 0 0 1em rgba(0, 200, 255, 0.4);
 }
 

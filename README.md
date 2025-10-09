@@ -13,15 +13,15 @@ CSS3 – Estilização e animações
 
 O projeto simula de forma minimalista:
 
-O Sol, posicionado ao centro com um efeito de brilho e gradiente dourado;
+-- O Sol, posicionado ao centro com um efeito de brilho e gradiente dourado;
 
-A Terra, orbitando o Sol com uma rotação contínua;
+-- A Terra, orbitando o Sol com uma rotação contínua;
 
-A Lua, girando ao redor da Terra com uma órbita mais rápida;
+-- A Lua, girando ao redor da Terra com uma órbita mais rápida;
 
-Todo o cenário é ambientado em um fundo preto, simulando o espaço sideral.
+-- Todo o cenário é ambientado em um fundo preto, simulando o espaço sideral.
 
-As animações são criadas com @keyframes e aplicadas às órbitas dos corpos celestes, proporcionando um movimento fluido e contínuo.
+-- As animações são criadas com @keyframes e aplicadas às órbitas dos corpos celestes, proporcionando um movimento fluido e contínuo.
 
 🖼️ Demonstração
 

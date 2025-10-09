@@ -27,11 +27,11 @@ O projeto simula de forma minimalista:
 
 Ao abrir o arquivo index.html no navegador, será exibida uma animação mostrando:
 
-O Sol no centro;
+-- O Sol no centro;
 
-A Terra girando ao seu redor;
+-- A Terra girando ao seu redor;
 
-A Lua orbitando a Terra.
+-- A Lua orbitando a Terra.
 
 💡 Conceito
 
@@ -40,4 +40,4 @@ A ideia central do projeto é explorar as possibilidades do CSS para criar anima
 👨‍💻 Autor
 
 Murilo Oliveira
-Desenvolvedor Full-Stack apaixonado por criar soluções visuais e interativas.
+Desenvolvedor Full-Stack.

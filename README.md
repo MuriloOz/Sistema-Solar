@@ -1,6 +1,8 @@
-🌌 Mini Sistema Solar — HTML & CSS Animation
+## 🌌 Mini Sistema Solar — HTML & CSS Animation
 
-Simulação visual minimalista do sistema solar utilizando apenas HTML5 e CSS3. Animações orbitais puras, sem JavaScript.
+> Simulação visual minimalista do sistema solar utilizando apenas HTML5 e CSS3. Animações orbitais puras, sem JavaScript.
+
+---
 
 📸 Preview
 

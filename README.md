@@ -8,7 +8,7 @@
 
 ![alt text](image.png)
 
-✨ Funcionalidades
+##✨ Funcionalidades
 
 ☀️ Sol central com efeito de brilho e gradiente
 
@@ -22,13 +22,14 @@
 
 🚫 Nenhum uso de JavaScript
 
-🛠️ Tecnologias
+##🛠️ Tecnologias
 Camada	Tecnologia
 Estrutura	HTML5
 Estilização	CSS3
 Animação	CSS @keyframes
 Transformações	rotate() + transform-origin
-📁 Estrutura do Projeto
+
+##📁 Estrutura do Projeto
 Sistema-Solar/
 │
 ├── index.html      # Estrutura dos corpos celestes
@@ -37,7 +38,7 @@ Sistema-Solar/
 
 O movimento orbital é criado aplicando a animação ao container da órbita, e não diretamente ao planeta.
 
-Exemplo simplificado:
+##Exemplo simplificado:
 
 @keyframes orbit {
   from { transform: rotate(0deg); }
@@ -50,7 +51,7 @@ animation: orbit 10s linear infinite;
 
 Isso cria a ilusão de movimento circular suave e contínuo.
 
-🚀 Como Executar
+##🚀 Como Executar
 1. Clone o repositório
 git clone https://github.com/MuriloOz/Sistema-Solar.git
 cd Sistema-Solar
@@ -62,7 +63,7 @@ index.html
 
 A animação iniciará automaticamente no navegador.
 
-🎯 Objetivo do Projeto
+##🎯 Objetivo do Projeto
 
 Este projeto foi desenvolvido para:
 

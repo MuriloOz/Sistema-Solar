@@ -39,7 +39,7 @@ Sistema-Solar/
 
 O movimento orbital é criado aplicando a animação ao container da órbita, e não diretamente ao planeta.
 
-##Exemplo simplificado:
+## Exemplo simplificado:
 
 @keyframes orbit {
   from { transform: rotate(0deg); }

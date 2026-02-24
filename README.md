@@ -1,138 +1,105 @@
-🌌 Mini Sistema Solar — Animação Orbital com HTML & CSS
+🌌 Mini Sistema Solar — HTML & CSS Animation
 
-Uma simulação visual minimalista do sistema solar construída exclusivamente com HTML e CSS.
-Sem JavaScript. Sem bibliotecas externas. Apenas animações puras utilizando @keyframes.
+Simulação visual minimalista do sistema solar utilizando apenas HTML5 e CSS3. Animações orbitais puras, sem JavaScript.
 
-Um projeto simples no conceito, mas poderoso na demonstração de domínio de CSS.
+📸 Preview
 
-🎯 Objetivo do Projeto
+![alt text](image.png)
 
-Explorar o potencial do CSS3 para criar:
+✨ Funcionalidades
 
-🌞 Movimentos orbitais
+☀️ Sol central com efeito de brilho e gradiente
 
-🌍 Rotação contínua
+🌍 Terra orbitando o Sol com rotação contínua
 
-🌕 Órbitas aninhadas
+🌕 Lua orbitando a Terra com velocidade superior
 
-✨ Efeitos visuais com gradientes e sombras
+🌌 Fundo espacial minimalista
 
-🎞️ Animações suaves e fluidas
+🎞️ Animações 100% feitas com @keyframes
 
-Tudo isso sem qualquer lógica em JavaScript.
+🚫 Nenhum uso de JavaScript
 
-🚀 Tecnologias Utilizadas
-🔹 HTML5
+🛠️ Tecnologias
+Camada	Tecnologia
+Estrutura	HTML5
+Estilização	CSS3
+Animação	CSS @keyframes
+Transformações	rotate() + transform-origin
+📁 Estrutura do Projeto
+Sistema-Solar/
+│
+├── index.html      # Estrutura dos corpos celestes
+└── style.css       # Estilização e animações orbitais
+🧠 Como Funciona
 
-Responsável pela estrutura semântica dos elementos:
+O movimento orbital é criado aplicando a animação ao container da órbita, e não diretamente ao planeta.
 
-Sol
+Exemplo simplificado:
 
-Terra
+@keyframes orbit {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
 
-Lua
+A órbita gira continuamente com:
 
-Containers de órbita
+animation: orbit 10s linear infinite;
 
-🔹 CSS3
+Isso cria a ilusão de movimento circular suave e contínuo.
 
-Responsável por:
-
-Estilização completa
-
-Efeitos de brilho e profundidade
-
-Animações com @keyframes
-
-Transformações com rotate()
-
-Controle de tempo com animation-duration
-
-🌞 Estrutura Visual da Simulação
-
-O projeto representa de forma simplificada:
-
-☀️ Sol posicionado no centro
-
-Gradiente dourado
-
-Efeito de brilho com box-shadow
-
-🌍 Terra orbitando o Sol
-
-Movimento circular contínuo
-
-Rotação constante
-
-🌕 Lua orbitando a Terra
-
-Órbita menor
-
-Velocidade maior que a da Terra
-
-🌌 Fundo preto, simulando o espaço sideral
-
-🎞️ Como Funciona a Animação
-
-As órbitas são criadas utilizando:
-
-position: absolute
-
-transform-origin
-
-animation: rotate infinite linear
-
-@keyframes
-
-A rotação é aplicada ao container da órbita, criando a ilusão de movimento orbital realista.
-
-Esse efeito permite:
-
-Movimentos suaves
-
-Sincronização entre órbitas
-
-Estrutura limpa e organizada
-
-▶️ Como Executar
+🚀 Como Executar
+1. Clone o repositório
+git clone https://github.com/MuriloOz/Sistema-Solar.git
+cd Sistema-Solar
+2. Abra o projeto
 
 Basta abrir o arquivo:
 
 index.html
 
-No navegador de sua preferência.
+A animação iniciará automaticamente no navegador.
 
-A animação iniciará automaticamente.
+🎯 Objetivo do Projeto
 
-💡 Conceito e Aprendizados
+Este projeto foi desenvolvido para:
 
-Este projeto reforça conceitos importantes como:
+📚 Praticar animações avançadas em CSS
 
-Hierarquia de posicionamento
+🧩 Trabalhar posicionamento absoluto e hierarquia
 
-Manipulação de eixos de rotação
+🎨 Explorar efeitos visuais com gradientes e sombras
 
-Controle de tempo em animações
-
-Uso avançado de transform
-
-Separação clara entre estrutura e estilo
-
-É um ótimo exercício para quem deseja evoluir no front-end sem depender de frameworks.
+💼 Compor portfólio front-end
 
 🔮 Possíveis Melhorias Futuras
 
-✨ Adicionar estrelas animadas no fundo
+✨ Campo de estrelas animado
 
-🪐 Inserir outros planetas com diferentes velocidades orbitais
+🪐 Inclusão de outros planetas
 
-🎛️ Criar controle de velocidade via CSS custom properties
+🎛️ Controle de velocidade com CSS Variables
 
-🌠 Adicionar efeitos de profundidade com perspective
+🌍 Inclinação orbital com perspectiva 3D
 
-🌍 Simular inclinação orbital
+🌠 Efeito de profundidade e camadas
 
-👨‍💻 Autor
+🤝 Contribuindo
 
-Murilo Oliveira
-Desenvolvedor Full-Stack
+Contribuições são bem-vindas!
+Sinta-se à vontade para abrir uma issue ou enviar um pull request com melhorias.
+
+📄 Licença
+
+Projeto desenvolvido para fins de estudo e prática.
+Livre para uso, modificação e aprendizado.
+
+Se quiser, posso agora:
+
+🔥 Deixar ele ainda mais chamativo com badges
+
+🎨 Criar versão “GitHub destaque” nível portfólio premium
+
+📈 Ajustar para ficar alinhado com seu README principal
+
+🧠 Tornar mais técnico para impressionar recrutador

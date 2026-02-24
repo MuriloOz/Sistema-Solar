@@ -87,23 +87,3 @@ Este projeto foi desenvolvido para:
 🌍 Inclinação orbital com perspectiva 3D
 
 🌠 Efeito de profundidade e camadas
-
-🤝 Contribuindo
-
-Contribuições são bem-vindas!
-Sinta-se à vontade para abrir uma issue ou enviar um pull request com melhorias.
-
-📄 Licença
-
-Projeto desenvolvido para fins de estudo e prática.
-Livre para uso, modificação e aprendizado.
-
-Se quiser, posso agora:
-
-🔥 Deixar ele ainda mais chamativo com badges
-
-🎨 Criar versão “GitHub destaque” nível portfólio premium
-
-📈 Ajustar para ficar alinhado com seu README principal
-
-🧠 Tornar mais técnico para impressionar recrutador

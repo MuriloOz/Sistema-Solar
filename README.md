@@ -87,11 +87,3 @@ Este projeto foi desenvolvido para:
 🌍 Inclinação orbital com perspectiva 3D
 
 🌠 Efeito de profundidade e camadas
-
-<div align="center">
-
-**Desenvolvido por Murilo Almeida**
-
-[⬆ Voltar ao topo](#-unit-converter---conversor-de-unidades-profissional)
-
-</div>
